@@ -16,6 +16,11 @@ h1,h2,h3,h4{
     font-family: "Lato", sans-serif;
 }
 
+body{
+    padding: 0 2%;
+    margin: 0;
+}
+
 header{
     display:flex;
     flex-wrap: wrap;
@@ -25,9 +30,3 @@ header{
     position: sticky;
     top: 0;
 }
-
-body{
-    padding: 0 2%;
-    margin: 0;
-}
-
