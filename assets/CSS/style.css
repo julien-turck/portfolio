@@ -19,16 +19,22 @@ h1,h2,h3,h4{
 body{
     padding: 0 2%;
     margin: 0;
+    justify-content: space-between;
 }
 
 header{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
     background-color: white;
     position: sticky;
     top: 0;
+    border-bottom: 1px solid white;
+}
+
+header:hover{
+    border-bottom: 1px solid black;
 }
 
 header .logo img{
@@ -81,7 +87,6 @@ h2{
 
 .qui_suis_je{
     display: flex;
-    align-items: center;
 }
 
 #profile_photo{
@@ -90,6 +95,20 @@ h2{
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 30px gray;
+}
+
+#profile_photo:hover{
+    cursor: zoom-in;
+}
+
+#portfolio{
+    display:flex;
+    flex-direction: column;
+}
+
+#projects{
+    display: flex;
+    flex-direction: row;
 }
 
 footer{
