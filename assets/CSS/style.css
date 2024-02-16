@@ -35,3 +35,8 @@ header .logo img{
     width: 180px;
     height: 140px;
 }
+
+header .menu{
+    display: flex;
+    list-style-type: none;
+}
