@@ -57,6 +57,41 @@ header .menu a{
     color: #000
 }
 
+main{
+    margin: 4%
+}
+
+.page_content{
+    margin-top: 5%;
+}
+
+h2{
+    text-align: center;
+}
+
+#qui_suis_je_global{
+    display: flex;
+    flex-direction: column;
+}
+
+#presentation{
+    display: flex;
+    flex-direction: row;
+}
+
+.qui_suis_je{
+    display: flex;
+    align-items: center;
+}
+
+#profile_photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 30px gray;
+}
+
 @media screen and (max-width: 700px) {
     header{
         justify-content: center;
