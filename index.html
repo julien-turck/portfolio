@@ -10,14 +10,11 @@
 </head>
 <body>
     <header>
-        <div>
-            <figure>
-                <a href="assets/pictures/logo.png" target="_blank"><img src="assets/pictures/logo.png" alt="logo de la société-image d'alien"></a>
-            </figure>
-            <h1>A l'E Aisne</h1>
-        </div>
+        <figure class="logo">
+            <a href="assets/pictures/logo.png" target="_blank"><img src="assets/pictures/logo.png" alt="logo de la société-image d'alien"></a>
+        </figure>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="#Qui-suis-je-?">Qui suis-je ?</a></li>
                 <li><a href="#Portfolio">Portfolio</a></li>
                 <li><a href="#Me-contacter">Me contacter</a></li>
@@ -25,64 +22,71 @@
         </nav>          
     </header>
     <main>
-        <section id="#Qui-suis-je-?">
-            <figure>
-                <a href="assets/pictures/profile.png" target="_blank"><img src="assets/pictures/profile.png" alt="Photo de profil de Julien Turck"></a>
-            </figure>
-            <div>
-                <h2>Qui suis-je?</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-        </section>
-        <section id="Portfolio">
-            <div>
-                <h2>Portfolio</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <section>
+        <section class="page_content">
+            <article class="qui_suis_je"  id="#Qui-suis-je-?">
+                <div id="qui_suis_je_global">
+                    <h2>Qui suis-je?</h2>
+                    <section id="presentation">
+                        <figure>
+                            <a href="assets/pictures/profile.png" target="_blank"><img id="profile_photo" src="assets/pictures/profile.png" alt="Photo de profil de Julien Turck"></a>
+                        </figure>
+                        <div>
+                            <h3>Julien TURCK</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quos. Nihil laudantium perspiciatis adipisci ex laboriosam fugit corrupti assumenda rerum. Saepe quae est repudiandae at enim excepturi ex minus in!</p>
+                        </div>
+                    </section>
+                </div>
+            </article>
+            <article id="Portfolio">
                 <div>
-                    <figure>
-                        <a href="assets/pictures/cv.png" target="_blank"><img src="assets/pictures/cv.png" alt="illustration de mon projet de création d'un Curriculum Vitae"></a>
-                    </figure>
-                    <h3>Création d'un Curriculum Vitae</h3>
+                    <h2>Portfolio</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
+                <section>
+                    <div>
+                        <figure>
+                            <a href="assets/pictures/cv.png" target="_blank"><img src="assets/pictures/cv.png" alt="illustration de mon projet de création d'un Curriculum Vitae"></a>
+                        </figure>
+                        <h3>Création d'un Curriculum Vitae</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div>
+                        <figure>
+                            <a href="assets/pictures/cahier.png" target="_blank"><img src="assets/pictures/cahier.png" alt="illustration du cahier des charges d'un projet de site e-commerce"></a>
+                        </figure>
+                        <h3>Exemple de cahier des charges</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div>
+                        <figure>
+                            <a href="assets/pictures/js.png" target="_blank"><img src="assets/pictures/js.png" alt="illustration d'un projet incluant du javascript"></a>
+                        </figure>
+                        <h3>Dynamiser un espace documentaire</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </section>
+            </article>
+            <article id="Me-contacter">
                 <div>
-                    <figure>
-                        <a href="assets/pictures/cahier.png" target="_blank"><img src="assets/pictures/cahier.png" alt="illustration du cahier des charges d'un projet de site e-commerce"></a>
-                    </figure>
-                    <h3>Exemple de cahier des charges</h3>
+                    <h2>Me contacter</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div>
-                    <figure>
-                        <a href="assets/pictures/js.png" target="_blank"><img src="assets/pictures/js.png" alt="illustration d'un projet incluant du javascript"></a>
-                    </figure>
-                    <h3>Dynamiser un espace documentaire</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </section>
-        </section>
-        <section id="Me-contacter">
-            <div>
-                <h2>Me contacter</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <form action="">
-                <label for="firstname">
-                    <input type="text" name="firstname" id="firstname" placeholder="prénom">
-                </label>
-                <label for="lastname">
-                    <input type="text" name="lastname" id="lastname" placeholder="nom">
-                </label>
-                <label for="object">
-                    <input type="text" name="object" id="object" placeholder="objet">
-                </label>
-                <label for="firstname">
-                    <textarea name="message" id="message" placeholder="Votre message"></textarea>
-                </label>
-                <input type="submit" value="Envoyer">
-            </form>
+                <form action="">
+                    <label for="firstname">
+                        <input type="text" name="firstname" id="firstname" placeholder="prénom">
+                    </label>
+                    <label for="lastname">
+                        <input type="text" name="lastname" id="lastname" placeholder="nom">
+                    </label>
+                    <label for="object">
+                        <input type="text" name="object" id="object" placeholder="objet">
+                    </label>
+                    <label for="firstname">
+                        <textarea name="message" id="message" placeholder="Votre message"></textarea>
+                    </label>
+                    <input type="submit" value="Envoyer">
+                </form>
+            </article>
         </section>
     </main>
     <footer>
