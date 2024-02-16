@@ -30,3 +30,8 @@ header{
     position: sticky;
     top: 0;
 }
+
+header .logo img{
+    width: 180px;
+    height: 140px;
+}
