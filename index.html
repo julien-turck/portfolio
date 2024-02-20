@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A l'E Aisne - Developpement Web & Administration Réseaux informatiques</title>
+    <title>A l'E Aisne</title>
     <meta name="description" content="Portfolio de Julien TURCK, freelance indépendant dans les domaines de la maintenance informatique, administration réseaux et développement Web full-stack.">
     <link rel="shortcut icon" href="assets/pictures/favicon.png" type"image/png>
     <link rel="stylesheet" href="assets/CSS/style.css">
@@ -11,64 +11,85 @@
 <body>
     <header>
         <figure class="logo">
-            <a href="assets/pictures/logo.png" target="_blank"><img src="assets/pictures/logo.png" alt="logo de la société-image d'alien"></a>
+            <a href="#"><img src="assets/pictures/logo.png" alt="logo de la société-image d'alien"></a>
         </figure>
+        <div id="titre">
+            <h1>Developpement Web &<br> 
+                Administration Réseaux informatiques</h1>
+        </div>            
         <nav>
             <ul class="menu">
-                <li><a href="#Qui-suis-je-?">Qui suis-je ?</a></li>
+                <li><a href="#">Qui suis-je ?</a></li>
                 <li><a href="#Portfolio">Portfolio</a></li>
                 <li><a href="#Me-contacter">Me contacter</a></li>
             </ul>
         </nav>          
     </header>
     <main>
-        <section class="page_content">
-            <article class="qui_suis_je"  id="#Qui-suis-je-?">
-                <div id="qui_suis_je_global">
-                    <h2>Qui suis-je?</h2>
-                    <section id="presentation">
-                        <figure>
-                            <a href="assets/pictures/profile.png" target="_blank"><img id="profile_photo" src="assets/pictures/profile.png" alt="Photo de profil de Julien Turck"></a>
-                        </figure>
-                        <div>
-                            <h3>Julien TURCK</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quos. Nihil laudantium perspiciatis adipisci ex laboriosam fugit corrupti assumenda rerum. Saepe quae est repudiandae at enim excepturi ex minus in!</p>
-                        </div>
-                    </section>
-                </div>
-            </article>
-            <article id="Portfolio">
-                <div>
-                    <h2>Portfolio</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <section id="projects">
+        <article class="qui_suis_je">
+            <div id="qui_suis_je_global">
+                <h2 id="Portfolio">Qui suis-je?</h2>
+                <section id="presentation">
+                    <figure>
+                        <a href="assets/pictures/profile.png" target="_blank"><img id="profile_photo" src="assets/pictures/profile.png" alt="Photo de profil de Julien Turck"></a>
+                    </figure>
                     <div>
-                        <figure>
-                            <a href="assets/pictures/cv.png" target="_blank"><img src="assets/pictures/cv.png" alt="illustration de mon projet de création d'un Curriculum Vitae"></a>
-                        </figure>
-                        <h3>Création d'un Curriculum Vitae</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                    <div>
-                        <figure>
-                            <a href="assets/pictures/cahier.png" target="_blank"><img src="assets/pictures/cahier.png" alt="illustration du cahier des charges d'un projet de site e-commerce"></a>
-                        </figure>
-                        <h3>Exemple de cahier des charges</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                    <div>
-                        <figure>
-                            <a href="assets/pictures/js.png" target="_blank"><img src="assets/pictures/js.png" alt="illustration d'un projet incluant du javascript"></a>
-                        </figure>
-                        <h3>Dynamiser un espace documentaire</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <h3>Julien TURCK</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quos. Nihil laudantium perspiciatis adipisci ex laboriosam fugit corrupti assumenda rerum. Saepe quae est repudiandae at enim excepturi ex minus in!</p>
                     </div>
                 </section>
-            </article>
-            <article id="Me-contacter">
+            </div>
+        </article>
+        <article>
+            <section id="section_Portfolio">
                 <div>
-                    <h2>Me contacter</h2>
+                    <h2 id="Portfolio">Portfolio</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <section class="projects">
+                    <div class="card">
+                        <figure class="card__image">
+                            <img id="projetcv" src="assets/pictures/cv.png" alt="illustration de mon projet de création d'un Curriculum Vitae"></a>
+                        </figure>
+                        <div class="card__description">
+                            <h3>Création d'un Curriculum Vitae</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#">+</a>
+                        </div>                         
+                    </div>
+                    <div class="card">
+                        <figure class="card__image">
+                            <img id="projetcahier" src="assets/pictures/cahier.png" alt="illustration du cahier des charges d'un projet de site e-commerce"></a>
+                        </figure>
+                        <div class="card__description">
+                            <h3>Exemple de cahier des charges</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#">+</a>
+                        </div>                         
+                    </div>
+                    <div class="card">
+                        <figure class="card__image">
+                            <img id="projetjs" src="assets/pictures/js.png" alt="illustration d'un projet incluant du javascript"></a>
+                        </figure>
+                        <div class="card__description">
+                            <h3>Dynamiser un espace documentaire</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#">+</a>
+                        </div>                        
+                    </div>
+                </section>
+            </section>
+        </article>
+        <article>
+            <section>
+                <div>
+                    <h2 id="Me-contacter">Me contacter</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <form action="">
@@ -86,8 +107,8 @@
                     </label>
                     <input type="submit" value="Envoyer">
                 </form>
-            </article>
-        </section>
+            </section>
+        </article>
     </main>
     <footer>
         <div id="bandeau_reseaux_sociaux">
