@@ -92,7 +92,13 @@
                     <h2 id="Me-contacter">Me contacter</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <form action="">
+                <div class="error">
+                    <figure id="box_icone">
+                        <img id="icone_error" src="assets/pictures/error.png" alt="croix signalant une erreur">
+                    </figure>
+                    <p>Tous les champs doivent être remplis</p>
+                </div>
+                <form class="form" action="">
                     <label for="firstname">
                         <input type="text" name="firstname" id="firstname" placeholder="prénom">
                     </label>
@@ -103,9 +109,9 @@
                         <input type="text" name="object" id="object" placeholder="objet">
                     </label>
                     <label for="firstname">
-                        <textarea name="message" id="message" placeholder="Votre message"></textarea>
+                        <textarea name="message" id="message" placeholder="Votre message (N'oubliez pas de laisser dans le corps du message un moyen de vous recontacter si besoin.)"></textarea>
                     </label>
-                    <input type="submit" value="Envoyer">
+                    <input type="submit" id="envoyer" value="Envoyer">
                 </form>
             </section>
         </article>
