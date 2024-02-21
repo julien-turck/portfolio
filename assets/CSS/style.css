@@ -78,6 +78,7 @@ h2{
 #qui_suis_je_global{
     display: flex;
     flex-direction: column;
+    padding-bottom: 30px;
 }
 
 #presentation{
@@ -105,6 +106,7 @@ h2{
     display:flex;
     flex-direction: column;
     background-color: rgba(0, 76, 146, 0.2);
+    padding-bottom: 30px;
 }
 .projects{
     display:flex;
@@ -146,7 +148,70 @@ h2{
     z-index:0;
     width:100%;
     height:100%;
+    font-size: 4.5rem;
     display: none;
+}
+
+.card__overlay a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    height:100%;
+}
+
+.error {
+    max-width: 400px;
+    margin: 2rem auto 0 auto;
+    color: red;
+    background-color: rgba(255,227,235,1);
+    display: flex;
+    align-items: center;
+}
+
+#box_icone{
+    width: 20px;
+    height: 20px;
+}
+
+#icone_error{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form {
+    max-width: 400px;
+    margin: 1rem auto 0 auto;
+}
+
+.form input, .form textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.form textarea {
+    min-height: 200px;
+}
+
+#envoyer {
+    border: none;
+    border-radius: 5%;
+    background-color: rgba(0, 76, 146, 0.8);
+    color: white;
+    width: auto;
+    min-width: 100px;
+    font-size: 1rem;
+}
+
+#envoyer:hover{
+    cursor:pointer;
+    background-color: rgba(0, 76, 146, 0.4);
 }
 
 footer{
