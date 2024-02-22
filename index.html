@@ -78,13 +78,16 @@
                         <div class="card__description">
                             <h3>Dynamiser un espace de commentaire</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="openModal modal-trigger">+</button>
                         </div>
-                        <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-1">+</a>
-                        </div>
-                    <div class="modal" id="modal-1">
-                        <button class="modal__close">&times;</button>
+                        <!--
+                        <div class="card__overlay modal-trigger">
+                            <a href="#" class="card__link modal-trigger">+</a>
+                        </div>-->
+                    <div class="modal">
+                        <div class="modal__overlay modal-trigger"></div>
                         <div class="modal__content">
+                            <button id="closeModal">&times;</button>
                             <div class="modal__item">
                                 <figure>
                                     <img src="assets/pictures/js1.png" alt="illustration du code javaScript">
@@ -162,6 +165,6 @@
             <p>Données mises à jour le <time datetime="2024-01-23">23 janvier 2024</time></p>
         </div>
     </footer>
-<script> src='assets/JS/app.js'</script>   
+<script src='./assets/JS/app.js'></script>   
 </body>
 </html>
