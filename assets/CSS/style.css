@@ -242,13 +242,24 @@ h2, h3{
     cursor: pointer;
 }
 
-.error {
+#error {
     max-width: 400px;
     margin: 2rem auto 0 auto;
     color: red;
     background-color: rgba(255,227,235,1);
     display: flex;
     align-items: center;
+    visibility: hidden;
+}
+
+#error.active {
+    max-width: 400px;
+    margin: 2rem auto 0 auto;
+    color: red;
+    background-color: rgba(255,227,235,1);
+    display: flex;
+    align-items: center;
+    visibility: visible;
 }
 
 #box_icone{

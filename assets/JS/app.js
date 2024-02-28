@@ -1,3 +1,13 @@
+
+/*const modal = document.getElementById("modal1");
+const modalTrigger = document.querySelectorAll(".modal-trigger");
+
+modalTrigger.forEach(trigger => trigger.addEventListener("click", toggleModal))
+
+function toggleModal(){
+    modal.classList.toggle("active")
+}*/
+
 let btn1 = document.getElementById("button1")
 btn1.addEventListener('click', function(){
     const modal = document.getElementById("modal1");
@@ -50,12 +60,17 @@ btn4.addEventListener('click', function(){
     }
 });
 
-/*const modal = document.getElementById("modal1");
-const modalTrigger = document.querySelectorAll(".modal-trigger");
+let btnSubmit = document.getElementById("envoyer");
+btnSubmit.addEventListener('click', function(event){
+    document.getElementById("error").classList.remove("active")
 
-modalTrigger.forEach(trigger => trigger.addEventListener("click", toggleModal))
+    let firstName = document.getElementById("firstname");
+    let lastName = document.getElementById("lastname");
+    let object = document.getElementById("object");
+    let message = document.getElementById("message");
 
-function toggleModal(){
-    modal.classList.toggle("active")
-}*/
-
+    if (!firstName.value||!lastName.value||!object.value||!message.value){
+        document.getElementById("error").classList.add("active")
+        event.preventDefault();
+    }
+});
