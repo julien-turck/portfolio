@@ -67,11 +67,26 @@ header .menu a{
     color: white;
 }
 
-main{
-    margin: 4%;
+h2, h3{
+    text-align: center;
 }
 
-h2, h3{
+.main__intro{
+    height:500px;
+    background-image: url("../pictures/mapmonde.png");
+    background-size: cover;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main__textIntro{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 76, 146, 1);
+    font-weight: bold;
     text-align: center;
 }
 
