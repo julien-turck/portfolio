@@ -87,7 +87,6 @@ h2, h3{
     background-color: rgba(255, 255, 255, 0.5);
     color: rgba(0, 76, 146, 1);
     font-weight: bold;
-    text-align: center;
 }
 
 .quiSuisJe{
@@ -125,33 +124,34 @@ h2, h3{
     cursor: zoom-in;
 }
 
-#section_Portfolio{
+.portfolio{
     display:flex;
     flex-direction: column;
     background-color: rgba(0, 76, 146, 0.2);
     padding-bottom: 30px;
+    padding-left: 10px;
 }
 
-#section_Portfolio button{
+.portfolio button{
     text-decoration: none;
     color: black;
     font-weight: bold;
     border-bottom: 1px solid gray;
 }
 
-#section_Portfolio button:hover{
+.portfolio button:hover{
     border-bottom: 1px solid black;
     color: gray;
 }
 
-#section_Portfolio a{
+.portfolio a{
     text-decoration: none;
     color: black;
     font-weight: bold;
     border-bottom: 1px solid gray;
 }
 
-#section_Portfolio a:hover{
+.portfolio a:hover{
     border-bottom: 1px solid black;
     color: gray;
 }
