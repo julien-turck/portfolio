@@ -90,19 +90,27 @@ h2, h3{
     text-align: center;
 }
 
-#qui_suis_je_global{
+.quiSuisJe{
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
 }
 
-#presentation{
+.quiSuisJe__presentation{
     display: flex;
-    flex-direction: row;
+    align-items: center;
 }
 
-.qui_suis_je{
-    display: flex;
+.quiSuisJe__text a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+
+.quiSuisJe__text a:hover{
+    color: gray;
+    border-bottom: 1px solid black;
 }
 
 #profile_photo{

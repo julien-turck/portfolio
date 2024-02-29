@@ -16,6 +16,12 @@ h1,h2,h3,h4{
     font-family: "Lato", sans-serif;
 }
 
+body{
+    padding: 0 2%;
+    margin: 0;
+    justify-content: space-between;
+}
+
 header{
     display:flex;
     flex-wrap: wrap;
@@ -72,6 +78,19 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+
+main a:hover{
+    color: gray;
+    font-weight: bold;
+    border-bottom: 1px solid black;
 }
 
 .main__img404 img{
