@@ -75,8 +75,8 @@ h2, h3{
     height:500px;
     background-image: url("../pictures/mapmonde.png");
     background-size: cover;
-    display: table-cell;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
 }
 
 .main__textIntro{
@@ -124,10 +124,23 @@ h2, h3{
     padding-bottom: 30px;
 }
 
+#section_Portfolio button{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+
+#section_Portfolio button:hover{
+    border-bottom: 1px solid black;
+    color: gray;
+}
+
 #section_Portfolio a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+    border-bottom: 1px solid gray;
 }
 
 #section_Portfolio a:hover{

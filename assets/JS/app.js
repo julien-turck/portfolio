@@ -8,6 +8,19 @@ function toggleModal(){
     modal.classList.toggle("active")
 }*/
 
+let btn0 = document.getElementById("button0")
+btn0.addEventListener('click', function(){
+    const modal = document.getElementById("modal0");
+    modal.classList.add("active")
+    const modalTrigger = document.querySelectorAll(".modal-trigger");
+
+    modalTrigger.forEach(trigger => trigger.addEventListener("click", toggleModal))
+
+    function toggleModal(){
+        modal.classList.remove("active")
+    }
+});
+
 let btn1 = document.getElementById("button1")
 btn1.addEventListener('click', function(){
     const modal = document.getElementById("modal1");
