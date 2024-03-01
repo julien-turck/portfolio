@@ -18,35 +18,48 @@
         </div>            
         <nav>
             <ul class="menu">
-                <li><a href="#">Qui suis-je ?</a></li>
+                <li><a href="#Quisuisje">Qui suis-je ?</a></li>
                 <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#Me-contacter">Me contacter</a></li>
+                <li><a href="#Mecontacter">Me contacter</a></li>
             </ul>
         </nav>          
     </header>
     <main>
-        <h2>Développement web & <br> Administration d'infrastructures réseaux</h2>
-        <article class="qui_suis_je">
-            <div id="qui_suis_je_global">
-                <h3 id="Portfolio">Qui suis-je?</h3>
-                <section id="presentation">
+        <section class="main__intro">
+            <article class="main__textIntro">
+                <h2>Développement web & <br> Administration d'infrastructures réseaux</h2>
+                <p>Les métiers de l'informatique sont très divers : technicien de maintenance, administrateur réseau, cybersécurité, webmaster</p>
+                <p>Si tous ces termes vous perdent,</p>                    
+                <p>Si vous pensez que vous avez besoin de plusieurs de ces services mais que rechercher différents prestataires vous semble trop fastidieux,</p>
+                <p>Alors vous êtes au bon endroit</p>
+                <p>En effet, l'A l'E-Aisne (prononcez ALIEN) se met au service de l'Internet en vous permettant de connecter toutes vos infrastructures au réseau mondial. Egalement de vous assurer une présence sur celui-ci, tout en assurant une maintenance de vos actifs et en garantissant leur sécurité.</p>
+            </article>
+        </section>
+        <div class="quiSuisJe">
+                <h3 id="Quisuisje">Qui suis-je?</h3>
+                <section class="quiSuisJe__presentation">
                     <figure>
                         <a href="assets/pictures/profile.png" target="_blank"><img id="profile_photo" src="assets/pictures/profile.png" alt="Photo de profil de Julien Turck"></a>
                     </figure>
-                    <div>
+                    <article class="quiSuisJe__text">
                         <h4>Julien TURCK</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quos. Nihil laudantium perspiciatis adipisci ex laboriosam fugit corrupti assumenda rerum. Saepe quae est repudiandae at enim excepturi ex minus in!</p>
-                    </div>
+                        <p>Actuellement, je suis technicien de maintenance informatique pour l'ADICA (Agence Départementale d'Ingénierie pour les Collectivités de l'Aisne). Toutefois, mon parcours scolaire et professionnel ne m'a pas tout de suite amené à travailler dans le secteur informatique.</p>
+                        <p>Vosgien d'origine, j'ai tout d'abord obtenu un Baccalauréat technique dans l'industrie, avant de me réorienter dans le monde de la culture, de part ma passion pour l'histoire.</p>
+                        <p>Cette orientation m'a très rapidement amené à travailler dans les bibliothèques, secteur qui recrutait beaucoup à l'époque. Mon atout majeur, qui me distinguait des autres candidats, était mon appétence pour l'informatique et le numérique.</p>
+                        <p>J'étais donc sur des postes d'animateur multimédia et référent informatique / numérique. Ce qui m'a permis d'apprendre sur le tas les métiers de technicien de maintenance puis d'administrateur réseaux informatiques.</p>
+                        <p>Puis je suis devenu papa avec ma compagne axonnaise, que j'ai rejoint en 2021. Ce qui m'a amené à ma situation professionnelle actuelle. C'est également durant cette période que j'ai obtenu un BTS SIO par le biais de la validation des acquis de mes années en bibliothèque.</p>
+                        <p>Si mon parcours vous semble bien compliqué, je vous invite à consulter mon Curriculum Vitae en <a href="assets/pages/404.html">cliquant ici</a>.</p>
+                    </article>
                 </section>
             </div>
-        </article>
-        <article>
-            <section id="section_Portfolio">
-                <div>
+            <section class="portfolio">
+                <article>
                     <h3 id="Portfolio">Portfolio</h3>
-                    <p>Parce que des exemples sont plus parlant, <br> Vous pourrez visualiser ci-dessous les derniers projets auxquels j'ai participé.</p>
+                    <p>Parce que des exemples sont plus parlant, </p>
+                    <p>Outre ce site que j'ai entièrement réalisé et dont vous pouvez consulter le projet en <button class="openModal" id="button0">cliquant ici</button></p>
+                    <p>Vous pourrez visualiser ci-dessous les derniers projets auxquels j'ai participé.</p>
                     <p>Pour visualiser tous mes projets et trouver celui qui vous convient : <a href="./assets/pages/404.html">cliquez ici</a></p>
-                </div>
+                </article>
                 <section class="projects">
                     <div class="card">
                         <figure class="card__image">
@@ -54,41 +67,9 @@
                         </figure>
                         <div class="card__description">
                             <h3>Création d'un Curriculum Vitae</h3>
-                            <p>Projet à réaliser durant ma formation de développeur web full-stack.</p>
+                            <p>Projet réalisé durant ma formation de développeur web full-stack.</p>
                             <button class="openModal" id="button1">Pour en savoir plus</button>
                         </div>
-                    </div>
-                    <div id="modal1" class="modal">
-                        <div class="modal__overlay modal-trigger"></div>
-                        <div class="modal__content">
-                            <button class="closeModal modal-trigger">&times;</button>
-                            <div class="modal__item">
-                                <figure>
-                                    <img src="assets/pictures/js1.png" alt="illustration du code javaScript">
-                                </figure>
-                                <figure>
-                                    <img src="assets/pictures/js2.png" alt="illustration du code javaScript">
-                                </figure>
-                            </div>
-                            <div class="modal__item">
-                                <h3>Création d'un Curriculum Vitae</h3>
-                                <div class="modal__année">
-                                    <figure>
-                                        <img src="assets/pictures/calendrier.png" alt="icône représentant un calendrier">
-                                    </figure>
-                                    <p>Année : <time datetime="2024">2024</time></p>
-                                </div>
-                                <h4>Présentation du projet</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <h4>Technologies</h4>
-                                <ul>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                                <p><a href="assets/pages/js" target="_blank">Pour visualiser le rendu</a></p>
-                                <p><a href="https://github.com/julien-turck">Lien vers le projet Github</a></p>
-                            </div>
-                        </div>                        
                     </div>
                     <div class="card">
                         <figure class="card__image">
@@ -96,133 +77,236 @@
                         </figure>
                         <div class="card__description">
                             <h3>Exemple de cahier des charges</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Projet réalisé durant ma formation de développeur web full-stack.</p>
                             <button class="openModal" id="button2">Pour en savoir plus</button>
                         </div>
-                    </div>
-                    <div class="modal" id="modal2">
-                        <div class="modal__overlay modal-trigger"></div>
-                        <div class="modal__content">
-                            <button class="closeModal modal-trigger">&times;</button>
-                            <div class="modal__item">
-                                <figure>
-                                    <img src="assets/pictures/js1.png" alt="illustration du code javaScript">
-                                </figure>
-                                <figure>
-                                    <img src="assets/pictures/js2.png" alt="illustration du code javaScript">
-                                </figure>
-                            </div>
-                            <div class="modal__item">
-                                <h3>Exemple de cahier des charges</h3>
-                                <div class="modal__année">
-                                    <figure>
-                                        <img src="assets/pictures/calendrier.png" alt="icône représentant un calendrier">
-                                    </figure>
-                                    <p>Année : <time datetime="2024">2024</time></p>
-                                </div>
-                                <h4>Présentation du projet</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <h4>Technologies</h4>
-                                <ul>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                                <p><a href="assets/pages/js" target="_blank">Pour visualiser le rendu</a></p>
-                                <p><a href="https://github.com/julien-turck">Lien vers le projet Github</a></p>
-                            </div>
-                        </div>                        
-                    </div>
+                    </div>                    
                     <div class="card">
                         <figure class="card__image">
                             <img id="projetjs" src="assets/pictures/js.png" alt="illustration d'un projet incluant du javascript"></a>
                         </figure>
                         <div class="card__description">
                             <h3>Dynamiser un espace de commentaire</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Projet réalisé durant ma formation de développeur web full-stack.</p>
                             <button class="openModal" id="button3">Pour en savoir plus</button>
                         </div>
-                    </div>
-                    <div class="modal" id="modal3">
-                        <div class="modal__overlay modal-trigger"></div>
-                        <div class="modal__content">
-                            <button class="closeModal modal-trigger">&times;</button>
-                            <div class="modal__item">
-                                <figure>
-                                    <img src="assets/pictures/js1.png" alt="illustration du code javaScript">
-                                </figure>
-                                <figure>
-                                    <img src="assets/pictures/js2.png" alt="illustration du code javaScript">
-                                </figure>
-                            </div>
-                            <div class="modal__item">
-                                <h3>Dynamiser un espace de commentaire</h3>
-                                <div class="modal__année">
-                                    <figure>
-                                        <img src="assets/pictures/calendrier.png" alt="icône représentant un calendrier">
-                                    </figure>
-                                    <p>Année : <time datetime="2024">2024</time></p>
-                                </div>
-                                <h4>Présentation du projet</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <h4>Technologies</h4>
-                                <ul>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                                <p><a href="assets/pages/js" target="_blank">Pour visualiser le rendu</a></p>
-                                <p><a href="https://github.com/julien-turck">Lien vers le projet Github</a></p>
-                            </div>
-                        </div>                        
                     </div>
                     <div class="card">
                         <figure class="card__image">
                             <img id="projetjs" src="assets/pictures/js.png" alt="illustration d'un projet incluant du javascript"></a>
                         </figure>
                         <div class="card__description">
-                            <h3>Création d'un portfolio</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <h3>Administration d'un réseau de bibliothèques</h3>
+                            <p>Desciption de mon poste au sein des bibliothèques d'Epinal.</p>
                             <button class="openModal" id="button4">Pour en savoir plus</button>
                         </div>
                     </div>
-                    <div class="modal" id="modal4">
-                        <div class="modal__overlay modal-trigger"></div>
-                        <div class="modal__content">
-                            <button class="closeModal modal-trigger">&times;</button>
-                            <div class="modal__item">
-                                <figure>
-                                    <img src="assets/pictures/js1.png" alt="illustration du code javaScript">
-                                </figure>
-                                <figure>
-                                    <img src="assets/pictures/js2.png" alt="illustration du code javaScript">
-                                </figure>
-                            </div>
-                            <div class="modal__item">
-                                <h3>Création d'un portfolio</h3>
-                                <div class="modal__année">
-                                    <figure>
-                                        <img src="assets/pictures/calendrier.png" alt="icône représentant un calendrier">
-                                    </figure>
-                                    <p>Année : <time datetime="2024">2024</time></p>
-                                </div>
-                                <h4>Présentation du projet</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <h4>Technologies</h4>
-                                <ul>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                                <p><a href="assets/pages/js" target="_blank">Pour visualiser le rendu</a></p>
-                                <p><a href="https://github.com/julien-turck">Lien vers le projet Github</a></p>
-                            </div>
-                        </div>                        
-                    </div>
                 </section>
             </section>
-        </article>
+            <section>
+                <div class="modal" id="modal0">
+                    <div class="modal__overlay modal-trigger"></div>
+                    <div class="modal__content">
+                        <button class="modal__close modal-trigger">&times;</button>
+                        <div class="modal__images">
+                            <figure class="modal__image">
+                                <a href="assets/pictures/exemple_portfolio1.PNG" target="_blank"><img src="assets/pictures/exemple_portfolio1.PNG" alt="Illustration d'une modale"></a>
+                                <figcaption>Illustration d'une modale</figcaption>
+                            </figure>
+                            <figure class="modal__image">
+                                <a href="assets/pictures/exemple_portfolio2.PNG" target="_blank"><img src="assets/pictures/exemple_portfolio2.PNG" alt="Illustration d'un formulaire de contact"></a>
+                                <figcaption>Illustration d'un formulaire de contact</figcaption>
+                            </figure>
+                        </div>
+                        <div class="modal__text">
+                            <h3>Création d'un portfolio</h3>
+                            <div class="modal__année">
+                                <figure>
+                                    <img src="assets/pictures/calendrier.png" alt="icône représentant un calendrier">
+                                </figure>
+                                <p>Année : <time datetime="2024">2024</time></p>
+                            </div>
+                            <h4>Présentation du projet</h4>
+                            <p>Projet réalisé durant ma formation de développeur web full-stack.</p> 
+                            <p>Il consitait à créer un portfolio me présentant ainsi que mes premières créations en tant que développeur débutant.</p>
+                            <p>Parmi les contraintes, outre les technologies à utiliser, listées plus bas, il y avait des contenus et des effets attendus.</p>
+                            <p>Ce que j'ai appris à programmer avec ce projet, c'est la génération des modales, l'envoi de formulaires, la liaison de plusieurs de pages et l'ancrage des menus.</p>
+                            <h4>Technologies</h4>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>VueJS v3</li>
+                                <li>Git</li>
+                                <li>GitHub</li>
+                            </ul>
+                            <p><a href="assets/pages/404.html" target="_blank">Pour visualiser le rendu</a></p>
+                            <p><a href="https://github.com/julien-turck/portfolio" target="_blank">Lien vers le projet Github</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal1">
+                    <div class="modal__overlay modal-trigger"></div>
+                    <div class="modal__content">
+                        <button class="modal__close modal-trigger">&times;</button>
+                        <div class="modal__images">
+                            <figure class="modal__image">
+                                <a href="assets/pictures/exemple_cv1.PNG" target="_blank"><img src="assets/pictures/exemple_cv1.PNG" alt="Image montrant un renvoi vers une boite mail fonctionnel"></a>
+                                <figcaption>renvoi vers une boite mail fonctionnel</figcaption>
+                            </figure>
+                            <figure class="modal__image">
+                                <a href="assets/pictures/exemple_cv2.PNG" target="_blank"><img src="assets/pictures/exemple_cv2.PNG" alt="Image illustrant des effets CSS"></a>
+                                <figcaption>Effets CSS</figcaption>
+                            </figure>
+                        </div>
+                        <div class="modal__text">
+                            <h3>Création d'un Curriculum Vitae</h3>
+                            <div class="modal__année">
+                                <figure>
+                                    <img src="assets/pictures/calendrier.png" alt="icône représentant un calendrier">
+                                </figure>
+                                <p>Année : <time datetime="2024">2024</time></p>
+                            </div>
+                            <h4>Présentation du projet</h4>
+                            <p>Projet réalisé durant ma formation de développeur web full-stack.</p> 
+                            <p>Il consitait à éditer mon CV, présentant mon parcours scolaire et professionnel.</p>
+                            <p>Parmi les contraintes, outre les technologies à utiliser, listées plus bas, il y avait des contenus et des effets attendus.</p>
+                            <p>Ce que j'ai appris à programmer avec ce projet, c'est la génération d'une page en HTML, stylisée avec du CSS. J'ai également appris à créer des effets et des renvois vers des liens externes.</p>
+                            <p>Enfin, j'ai appris à utiliser un outil de versionning et à vérifier la conformité de mes projets avec les recommandations du W3C.</p>
+                            <h4>Technologies</h4>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Git</li>
+                                <li>GitHub</li>
+                            </ul>
+                            <p><a href="assets/pages/404.html" target="_blank">Pour visualiser le rendu</a></p>
+                            <p><a href="https://github.com/julien-turck/mon_Cv" target="_blank">Lien vers le projet Github</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal2">
+                    <div class="modal__overlay modal-trigger"></div>
+                    <div class="modal__content">
+                        <button class="modal__close modal-trigger">&times;</button>
+                        <div class="modal__images">
+                            <figure class="modal__image">
+                                <a href="assets/pictures/exemple_cahier1.png" target="_blank"><img src="assets/pictures/exemple_cahier1.png" alt="Image illustrant la maquette d'un site web"></a>
+                                <figcaption>Maquette du site</figcaption>
+                            </figure>
+                            <figure class="modal__image">
+                                <a href="assets/pictures/exemple_cahier2.png" target="_blank"><img src="assets/pictures/exemple_cahier2.png" alt="Image illustrant la maquette de la page d'accueil d'un site web"></a>
+                                <figcaption>Maquette de la page d'accueil</figcaption>
+                            </figure>
+                        </div>
+                        <div class="modal__text">
+                            <h3>Création d'un cahier des charges</h3>
+                            <div class="modal__année">
+                                <figure>
+                                    <img src="assets/pictures/calendrier.png" alt="icône représentant un calendrier">
+                                </figure>
+                                <p>Année : <time datetime="2024">2024</time></p>
+                            </div>
+                            <h4>Présentation du projet</h4>
+                            <p>Projet réalisé durant ma formation de développeur web full-stack.</p> 
+                            <p>Il consitait à éditer un cahier des charges répondant à la commande d'un site e-commerce.</p>
+                            <p>Le client était imposé mais fictif. Il avait des exigences de conenus pour ces clients, de type de payements ainsi que de transferts de compétences au niveau du back-office.</p>
+                            <p>Ce que j'ai acquis avec ce projet, c'est la recherche sur ce qui se fait dans un domaine donné ainsi que sur la recherche d'offres d'hébergement.</p>
+                            <p>J'ai également appris à utiliser un CMS et toutes ses composantes.</p>
+                            <h4>Technologies</h4>
+                            <ul>
+                                <li>WordPress</li>
+                                <li>WooCommerce</li>
+                                <li>SumUp</li>
+                                <li>Hébergement OVH</li>
+                            </ul>
+                            <p><a href="assets/pages/404.html" target="_blank">Pour visualiser le PDF</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal3">
+                    <div class="modal__overlay modal-trigger"></div>
+                    <div class="modal__content">
+                        <button class="modal__close modal-trigger">&times;</button>
+                        <div class="modal__images">
+                            <figure class="modal__image">
+                                <a href="assets/pictures/js" target="_blank"><img src="assets/pictures/js" alt="en cours"></a>
+                                <figcaption></figcaption>
+                            </figure>
+                            <figure class="modal__image">
+                                <a href="assets/pictures/js" target="_blank"><img src="assets/pictures/js" alt="en cours"></a>
+                                <figcaption></figcaption>
+                            </figure>
+                        </div>
+                        <div class="modal__text">
+                            <h3>Dynamiser un espace de commentaires</h3>
+                            <div class="modal__année">
+                                <figure>
+                                    <img src="assets/pictures/calendrier.png" alt="icône représentant un calendrier">
+                                </figure>
+                                <p>Année : <time datetime="2024">2024</time></p>
+                            </div>
+                            <h4>Présentation du projet</h4>
+                            <p>Projet réalisé durant ma formation de développeur web full-stack.</p> 
+                            <p>Il consitait à rendre un espace de commentaire plus fluide dans son utilisation et dans l'affichage des informations.</p>
+                            <p>Parmi les contraintes, outre les technologies à utiliser, listées plus bas, il y avait des contenus et des effets attendus.</p>
+                            <p>Ce que j'ai appris à programmer avec ce projet, c'est la création d'une fonction permettant l'affichage d'un nouveau bloc avec du contenu personnalisé, l'affichage d'un message d'erreur au moment opportun ainsi que la gestion du comportement d'une fonction.</p>
+                            <h4>Technologies</h4>
+                            <ul>
+                                <li>HTML</li>
+                                <li>JavaScript</li>
+                                <li>Git</li>
+                                <li>GitHub</li>
+                            </ul>
+                            <p><a href="assets/pages/404.html" target="_blank">Pour visualiser le rendu</a></p>
+                            <p><a href="https://github.com/julien-turck/mon_premier_javascript" target="_blank">Lien vers le projet Github</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal4">
+                    <div class="modal__overlay modal-trigger"></div>
+                    <div class="modal__content">
+                        <button class="modal__close modal-trigger">&times;</button>
+                        <div class="modal__images">
+                            <figure class="modal__image">
+                                <a href="assets/pictures/js" target="_blank"><img src="assets/pictures/js" alt="en cours"></a>
+                                <figcaption></figcaption>
+                            </figure>
+                            <figure class="modal__image">
+                                <a href="assets/pictures/js" target="_blank"><img src="assets/pictures/js" alt="en cours"></a>
+                                <figcaption></figcaption>
+                            </figure>
+                        </div>
+                        <div class="modal__text">
+                            <h3>Administration d'un réseau de bibliothèques</h3>
+                            <div class="modal__année">
+                                <figure>
+                                    <img src="assets/pictures/calendrier.png" alt="icône représentant un calendrier">
+                                </figure>
+                                <p>Année : De <time datetime="2017">2017</time> à <time datetime="2022">2022</time></p>
+                            </div>
+                            <h4>Présentation du projet</h4>
+                            <p>Desciption de mon poste au sein des bibliothèques d'Epinal.</p> 
+                            <p>Vous pouvez visionner ici mon dossier de validation d'acquis d'expérience qui m'a permis de valider le BTS SIO.</p>
+                            <p>Ce serait beaucoup trop long de résumer ici ce que j'ai acquis durent cette période. Je vous invite donc à parcourir le PDF associé.</p>
+                            <p>Il vous permettra de juger de mes compétences dans les domaines de la maintenance, de l'administration et de la sécurisation du matériel informatique et des infrastructures réseaux.</p>
+                            <h4>Technologies</h4>
+                            <ul>
+                                <li>Hyperviseurs</li>
+                                <li>Serveurs OS Windows et Linux</li>
+                                <li>Matériels réseau : Switchs, parefeux, proxys, bornes WIFI</li>
+                                <li>Postes de travail OS Windows et Linux</li>
+                                <li>Terminals mobiles OS Androïd et Apple</li>
+                            </ul>
+                            <p><a href="assets/pages/404.html" target="_blank">Pour visualiser le PDF</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         <article>
             <section>
                 <div>
-                    <h3 id="Me-contacter">Me contacter</h3>
+                    <h3 id="Mecontacter">Me contacter</h3>
                     <p>Si la présentation d'un de mes projets vous a convaincu, <br> N'hésitez pas à me contacter afin que nous puissions créer le votre ensemble !</p>
                 </div>
                 <div id="error">
