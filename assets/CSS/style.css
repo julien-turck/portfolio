@@ -33,36 +33,36 @@ header{
     z-index: 1;
 }
 
-header .logo img{
+.logo img{
     width: 150px;
     height: 110px;
     border-radius: 10%;
 }
 
-#titre{
+h1{
     color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
 }
 
-header .menu{
+.menu{
     display: flex;
     list-style-type: none;
     margin-right: 10px;
 }
 
-header .menu li{
+.menu li{
     margin-left: 20px;
     text-decoration: none;
     font-weight: bold;
 }
 
-header .menu li:hover{
+.menu li:hover{
     cursor: pointer;
     border-bottom: solid 2px white;
 }
 
-header .menu a{
+.menu a{
     text-decoration: none;
     color: white;
 }
@@ -71,7 +71,7 @@ h2, h3{
     text-align: center;
 }
 
-.main__intro{
+.intro{
     height:500px;
     background-image: url("../pictures/mapmonde.png");
     background-size: cover;
@@ -79,7 +79,7 @@ h2, h3{
     align-items: center;
 }
 
-.main__textIntro{
+.intro__text{
     display: flex;
     flex-direction: column;
     margin: 50px;
@@ -100,6 +100,23 @@ h2, h3{
     align-items: center;
 }
 
+.quiSuisJe__photo{
+    width: 200px;
+    height: 200px;
+}
+
+.quiSuisJe__photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 30px gray;
+}
+
+.quiSuisJe__photo img:hover{
+    cursor: zoom-in;
+}
+
 .quiSuisJe__text a{
     text-decoration: none;
     color: black;
@@ -112,24 +129,13 @@ h2, h3{
     border-bottom: 1px solid black;
 }
 
-#profile_photo{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 0 30px gray;
-}
-
-#profile_photo:hover{
-    cursor: zoom-in;
-}
-
 .portfolio{
     display:flex;
     flex-direction: column;
     background-color: rgba(0, 76, 146, 0.2);
     padding-bottom: 30px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .portfolio button{
@@ -158,16 +164,12 @@ h2, h3{
 
 .projects{
     display:flex;
-    margin-left: 5px;
-    margin-right: 5px;
+    justify-content: space-around;
 }
 
-.projects .card{
-    position:relative;
+.card{
     display:flex;
     flex-direction: column;
-    margin: 5px;
-    max-width: 25%;
     text-align: top;
     justify-content: center;
     align-items: center;
@@ -184,7 +186,7 @@ h2, h3{
     height: 150px;
 }
 
-#projetcv, #projetcahier, #projetjs{
+.card__image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -223,6 +225,19 @@ h2, h3{
     visibility: visible;
 }
 
+
+.modal a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+
+.modal a:hover{
+    border-bottom: 1px solid black;
+    color: gray;
+}
+
 .modal__overlay{
     position:absolute;
     width: 100%;
@@ -246,6 +261,7 @@ h2, h3{
 .modal__image{
     width:150px;
     height:150px;
+    margin: 10px;
 }
 
 .modal__image img{
@@ -321,12 +337,12 @@ h2, h3{
     visibility: visible;
 }
 
-#box_icone{
+.error__box{
     width: 20px;
     height: 20px;
 }
 
-#icone_error{
+.error__icone{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -373,17 +389,17 @@ footer{
     justify-content: center;
 }
 
-#bandeau_reseaux_sociaux{
+.social{
     display: flex;
     flex-direction: row;
 }
 
-#logo_linkedin, #logo_facebook, #logo_github{
+.social__logo{
     width: 50px;
     height: 50px;
 }
 
-#linkedin, #facebook, #github{
+.social__logo img{
     width: 100%;
     height: 100%;
     object-fit: cover;
