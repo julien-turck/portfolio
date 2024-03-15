@@ -26,7 +26,6 @@ header{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: top;
     background-color: rgba(0, 76, 146, 0.5);
     position: sticky;
     top: 0;
