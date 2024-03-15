@@ -93,7 +93,7 @@ h2, h3{
     flex-direction: column;
 }
 
-.services__colonne{
+.services__ligne{
     display: flex;
 }
 
